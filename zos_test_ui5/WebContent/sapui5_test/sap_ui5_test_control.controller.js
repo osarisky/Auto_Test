@@ -12,6 +12,7 @@ sap.ui.controller("zos_test_ui5.sapui5_test", {
             "LLAPSANSKY",
             "Jajo29jajo"
             );
+	
             this.getView().setModel(oModel);
             this.getView().bindElement("/CLASSDOCSet(Clsname='a',Clstype='b')"); 
 
